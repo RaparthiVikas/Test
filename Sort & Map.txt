@@ -1,0 +1,21 @@
+3Q: difference between sort method and map method
+
+sort() method
+1. Used to sort the elements of an array in place
+2. Mutates the original array. The original array is modified
+3. Returns the sorted array (the original array, now sorted)
+4. array.sort([compareFunction])
+5. The optional compareFunction defines the sort order
+6. Can be chained with other array methods, such as map(), to perform multiple operations
+7. The time complexity of the sort() method depends on the implementation, but it's generally O(n log n)
+8. Useful for sorting elements in an array based on a specific order or comparison function
+
+map() method
+1. Used to transform each element of an array and create a new array
+2. Does not mutate the original array. It returns a new array
+3. Returns a new array with the transformed elements
+4. array.map(callback(currentValue, index, array), thisArg)
+5. The callback function transforms each element and returns the new value
+6. Can also be chained with other array methods, such as sort(), to perform multiple operations
+7. The time complexity of the map() method is O(n), as it iterates through the entire array
+8. Useful for transforming each element of an array into a new value, creating a new array

@@ -1,0 +1,20 @@
+Q2: document object model [DOM]
+
+The DOM is a programming interface for web documents, representing the structure of a document as a tree of objects. It allows programs and scripts to dynamically access and update the content, structure, and style of documents.
+
+Key Concepts of the DOM:
+1. Tree Structure: The DOM represents the document as a tree of nodes.
+2. Node Types: There are different types of nodes, such as element, text, and attribute nodes.
+3. Dynamic Access and Update: The DOM allows scripts to read and manipulate the document's content, structure, and style dynamically.
+
+Role of the DOM in JavaScript:
+JavaScript uses the DOM to interact with web pages, allowing it to create dynamic web content that can change without page reloads.
+
+Manipulating the DOM:
+1. Selecting Elements: Using methods like `getElementById()`, `getElementsByClassName()`, `querySelector()`, etc.
+2. Modifying Elements: Changing the HTML, text content, attributes, and classes of elements.
+3. Creating and Removing Elements: Using `createElement()`, `appendChild()`, and `removeChild()`.
+4. Handling Events: Registering event handlers with `addEventListener()`.
+
+Creating Dynamic Web Pages:
+By manipulating the DOM, you can create web pages that change dynamically based on user interactions or other conditions, such as a dynamic to-do list.
