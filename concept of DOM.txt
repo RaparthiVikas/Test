@@ -11,10 +11,10 @@ Role of the DOM in JavaScript:
 JavaScript uses the DOM to interact with web pages, allowing it to create dynamic web content that can change without page reloads.
 
 Manipulating the DOM:
-1. Selecting Elements: Using methods like `getElementById()`, `getElementsByClassName()`, `querySelector()`, etc.
+1. Selecting Elements: Using methods like getElementById(), getElementsByClassName(), querySelector(), etc
 2. Modifying Elements: Changing the HTML, text content, attributes, and classes of elements.
-3. Creating and Removing Elements: Using `createElement()`, `appendChild()`, and `removeChild()`.
-4. Handling Events: Registering event handlers with `addEventListener()`.
+3. Creating and Removing Elements: Using createElement(), appendChild(), and removeChild().
+4. Handling Events: Registering event handlers with addEventListener().
 
 Creating Dynamic Web Pages:
 By manipulating the DOM, you can create web pages that change dynamically based on user interactions or other conditions, such as a dynamic to-do list.
